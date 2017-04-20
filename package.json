@@ -1,0 +1,15 @@
+{
+  "name": "generator-bitmate",
+  "version": "1.0.1",
+  "description": "Generate Web Applications in the Cloud with BitMate.",
+  "homepage": "https://bitmate.io",
+  "author": "BitMate",
+  "repository": "https://github.com/bitmate/generator-bitmate",
+  "keywords": [
+    "yeoman",
+    "generator",
+    "gulp",
+    "bitmate",
+    "yeoman-generator"
+  ]
+}
