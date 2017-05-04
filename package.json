@@ -1,15 +1,30 @@
 {
   "name": "generator-bitmate",
-  "version": "1.0.1",
-  "description": "Generate Web Applications in the Cloud with BitMate.",
+  "version": "1.0.2",
+  "description": "Generate Apps in the Cloud. Supports Angular, React and Express, packaged with Bower or Webpack and using tools such as Gulp, Browsersync, Eslint, Karma & Mocha.",
   "homepage": "https://bitmate.io",
-  "author": "BitMate",
-  "repository": "https://github.com/bitmate/generator-bitmate",
+  "author": {
+    "name": "BitMate",
+    "email": "support@bitmate.io",
+    "url": "https://bitmate.io"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
   "keywords": [
     "yeoman",
     "generator",
     "gulp",
     "bitmate",
     "yeoman-generator"
-  ]
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "open": "0.0.5",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.2"
+  },
+  "repository": "https://github.com/bitmate/generator-bitmate",
+  "license": "MIT"
 }
